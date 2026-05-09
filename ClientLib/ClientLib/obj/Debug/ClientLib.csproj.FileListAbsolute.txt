@@ -1,0 +1,6 @@
+D:\НГТУ\4 семестр\ТиМП\ВСЯ 4 ЛАБА\ClientLib\ClientLib\bin\Debug\ClientLib.dll
+D:\НГТУ\4 семестр\ТиМП\ВСЯ 4 ЛАБА\ClientLib\ClientLib\bin\Debug\ClientLib.pdb
+D:\НГТУ\4 семестр\ТиМП\ВСЯ 4 ЛАБА\ClientLib\ClientLib\obj\Debug\ClientLib.csproj.AssemblyReference.cache
+D:\НГТУ\4 семестр\ТиМП\ВСЯ 4 ЛАБА\ClientLib\ClientLib\obj\Debug\ClientLib.csproj.CoreCompileInputs.cache
+D:\НГТУ\4 семестр\ТиМП\ВСЯ 4 ЛАБА\ClientLib\ClientLib\obj\Debug\ClientLib.dll
+D:\НГТУ\4 семестр\ТиМП\ВСЯ 4 ЛАБА\ClientLib\ClientLib\obj\Debug\ClientLib.pdb
