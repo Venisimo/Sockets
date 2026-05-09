@@ -12,7 +12,9 @@
             <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
         <TextBox TextChanged="ClientLog_TextChanged" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="430" Margin="413,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" Name="ClientLog"/>
-        <ListBox HorizontalAlignment="Left" Height="265" Margin="22,73,0,0" VerticalAlignment="Top" Width="330" d:ItemsSource="{d:SampleData ItemCount=5}" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed" Name="FilesListBox">
+        <ListBox HorizontalAlignment="Left" Height="265" Margin="22,73,0,0" VerticalAlignment="Top" Width="330" d:ItemsSource="{d:SampleData ItemCount=5}" 
+                 RenderTransformOrigin="0.5,0.5" Visibility="Collapsed" Name="FilesListBox" SelectionChanged="FilesListBox_SelectionChanged" 
+                 MouseDoubleClick="FilesListBox_MouseDoubleClick" KeyDown="DriverList_KeyDown">
             <ListBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -32,7 +34,8 @@
           Width="330"
           TextWrapping="Wrap"
           VerticalAlignment="Top" />
-        <ComboBox IsEditable="True" HorizontalAlignment="Left" Height="26" Margin="22,33,0,0" VerticalAlignment="Top" Width="328" Name="DriverList"/>
+        <ComboBox IsEditable="True" HorizontalAlignment="Left" Height="26" Margin="22,33,0,0" VerticalAlignment="Top" Width="328" Name="DriverList" 
+                  SelectionChanged="DriverList_SelectionChanged" KeyDown="DriverList_KeyDown"/>
         <Button Content="Соединиться" HorizontalAlignment="Left" Height="23" Margin="82,391,0,0" VerticalAlignment="Top" Width="89" Name="Button_Connect" Click="Connect_Click"/>
         <Button Content="Отключиться" HorizontalAlignment="Left" Height="23" Margin="193,391,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.621,0.494" Name="Button_Disconnect" Click="Disconnect_Click" IsEnabled="False"/>
         <TextBox HorizontalAlignment="Left" Height="20" Margin="85,350,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="105" Name="ipEntry"/>
